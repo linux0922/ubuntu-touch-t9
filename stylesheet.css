@@ -1,0 +1,96 @@
+.touch-t9-panel {
+  background-color: #121416;
+  color: #ffffff;
+  border: 1px solid #4a4e53;
+  border-radius: 18px;
+  padding: 3px 6px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+}
+.touch-t9-content, .touch-t9-row, .touch-t9-header { spacing: 7px; }
+.touch-t9-grip { border-radius: 7px; }
+.touch-t9-grip:hover { background-color: #33373b; }
+.touch-t9-title { color: #b0b8c0; font-size: 15px; font-weight: bold; padding: 0 5px; }
+.touch-t9-key {
+  background-color: #33373b;
+  color: #ffffff;
+  border-radius: 9px;
+  padding: 0 4px;
+  font-weight: bold;
+}
+.touch-t9-key:hover, .touch-t9-key:active { background-color: #5a5f65; }
+.touch-t9-key:insensitive { color: #899198; }
+.touch-t9-small {
+  width: 37px;
+  height: 34px;
+  font-size: 19px;
+  border-radius: 7px;
+  background-color: #4a4e53;
+  color: #ffd479;
+}
+.touch-t9-small:selected { background-color: #54595f; color: #b9e4e6; }
+.touch-t9-close { background-color: #553a3a; color: #ffabab; }
+.touch-t9-close:hover, .touch-t9-close:active { background-color: #6d4646; }
+.touch-t9-digit, .touch-t9-action { min-width: 40px; font-size: 17px; }
+.touch-t9-number { color: #b0b8c0; font-size: 11px; font-weight: normal; }
+.touch-t9-action { background-color: #4a4e53; color: #b9e4e6; }
+.touch-t9-space { background-color: #54595f; }
+
+.touch-t9-edge-side { width: 16px; }
+.touch-t9-edge-horizontal { height: 15px; }
+.touch-t9-edge-line-side, .touch-t9-edge-line-horizontal {
+  border-radius: 3px;
+  background-color: #666c73;
+}
+.touch-t9-edge-line-side { width: 3px; height: 35px; }
+.touch-t9-edge-line-horizontal { width: 34px; height: 3px; }
+.touch-t9-edge:hover .touch-t9-edge-line-side,
+.touch-t9-edge:hover .touch-t9-edge-line-horizontal { background-color: #b9e4e6; }
+
+.touch-t9-settings {
+  min-height: 38px;
+  spacing: 9px;
+  padding: 0 9px;
+  border: 1px solid #4a4e53;
+  border-radius: 9px;
+  background-color: #33373b;
+  color: #ffffff;
+}
+.touch-t9-opacity-value { min-width: 3.1em; text-align: right; color: #b9e4e6; }
+.touch-t9-opacity-slider { -barlevel-active-background-color: #b9e4e6; }
+
+.touch-t9-suggestions { spacing: 3px; }
+.touch-t9-spelling-row, .touch-t9-word-row { spacing: 4px; }
+.touch-t9-preedit { color: #b0b8c0; padding: 2px 3px; font-size: 13px; }
+.touch-t9-page { width: 28px; height: 32px; font-size: 19px; background-color: #33373b; color: #b9e4e6; }
+.touch-t9-candidate { min-height: 29px; padding: 2px 4px; border-radius: 6px; font-size: 16px; background-color: transparent; }
+.touch-t9-candidate:hover { background-color: #4a4e53; }
+.touch-t9-candidate:first { color: #b9e4e6; background-color: #54595f; }
+.touch-t9-candidate:corrected { color: #ffd479; background-color: #4a4e53; }
+.touch-t9-candidate:active { color: #121416; background-color: #b9e4e6; }
+.touch-t9-spelling, .touch-t9-spelling-next, .touch-t9-correction { height: 29px; border-radius: 6px; font-size: 13px; }
+.touch-t9-spelling { background-color: transparent; color: #b0b8c0; }
+.touch-t9-spelling:hover { background-color: #33373b; }
+.touch-t9-spelling:selected { color: #b9e4e6; background-color: #54595f; }
+.touch-t9-spelling-next { width: 28px; background-color: #33373b; color: #b9e4e6; }
+.touch-t9-correction { width: 44px; background-color: #33373b; color: #ffd479; }
+.touch-t9-correction:hover, .touch-t9-correction:selected { background-color: #4a4e53; }
+
+.touch-t9-edge:locked .touch-t9-edge-line-side { background-color: transparent; }
+.touch-t9-settings-control { min-height: 35px; spacing: 9px; }
+.touch-t9-width-lock {
+  min-height: 32px;
+  margin-bottom: 5px;
+  background-color: #4a4e53;
+  padding: 0 8px;
+}
+.touch-t9-english-row { spacing: 4px; }
+.touch-t9-english-key { min-width: 18px; padding: 0 3px; border-radius: 7px; }
+.touch-t9-english-space { min-width: 90px; background-color: #54595f; }
+.touch-t9-english-key:selected { background-color: #54595f; color: #ffd479; }
+.touch-t9-restore {
+  padding: 0;
+  color: #b9e4e6;
+  background-color: #33373b;
+  border: 1px solid #4a4e53;
+  border-radius: 12px;
+}

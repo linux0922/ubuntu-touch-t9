@@ -1,0 +1,7 @@
+{
+  "uuid": "ubuntu-touch-t9@codex.local",
+  "name": "九宫格拼音",
+  "description": "从快速设置打开 Rime 九键触控键盘，在当前应用中选词输入。",
+  "shell-version": ["50"],
+  "version": 8
+}
